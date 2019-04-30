@@ -32,6 +32,15 @@ var primes: [Int] = [2, 3, 7, 11]
 primes.append(13)
 primes.append(17)
 
+// Appending Multiple Values
+
+primes.append(contentsOf: [19, 23, 25, 29])
+
+// Concatenating Arrays
+// The operands in the concatenation operation have to be of the same type
+
+primes += [31, 37, 43]
+
 
 
 
