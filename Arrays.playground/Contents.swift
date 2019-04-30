@@ -12,3 +12,29 @@ let tasks: [String] = []
 
 // Creates an array object
 let birthdayInviteList = Array<String>()
+
+// Accessing Single Elements
+// 1. Specify which array we're getting data from using constant
+// 2. Use a set of square brackets right after the array name to indicate that this is an access operation
+// 3. Specify an index number to retrieve data at that position
+
+let day = daysOfWeek[1]
+print(daysOfWeek)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
