@@ -21,6 +21,17 @@ let birthdayInviteList = Array<String>()
 let day = daysOfWeek[1]
 print(daysOfWeek)
 
+var primes: [Int] = [2, 3, 7, 11]
+
+// Appending Elements to Arrays
+
+// 1. Specify which array we're appending to using the constant name
+// 2. Use the append method, .append(), to insert at the end of the array
+// Array needs to be assigned to a variable in order to be modified
+
+primes.append(13)
+primes.append(17)
+
 
 
 
