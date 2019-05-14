@@ -41,9 +41,16 @@ primes.append(contentsOf: [19, 23, 25, 29])
 
 primes += [31, 37, 43]
 
+// Inserting elements into array
+// 1. Specify which array we're inserting into using constant name
+// 2. Use the insert method
 
+primes[2]
 
+primes.insert(5, at: 2)
+primes.insert(41, at: 13)
 
+primes[2]
 
 
 
