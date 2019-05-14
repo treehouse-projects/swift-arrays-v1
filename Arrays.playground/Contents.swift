@@ -78,9 +78,21 @@ students.removeLast()
 
 students.remove(at: 1)
 
+var dogs = ["Beagle", "Boston Terrier", "Dalmatian"]
+dogs[0]
+dogs[1]
 
+// Count Property
 
+var states = ["CA", "NC", "FL", "NY"]
+print(states.count)
 
+states.remove(at: 0)
+states.remove(at: 2)
+states.count
+
+let lastIndex = states.count - 1
+states[lastIndex]
 
 
 
