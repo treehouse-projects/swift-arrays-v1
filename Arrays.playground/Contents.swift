@@ -52,7 +52,31 @@ primes.insert(41, at: 13)
 
 primes[2]
 
+var students = ["Anjali", "Christopher", "Brianna", "Mohammed"]
 
+// Updating a value
+// 1. Specify the array that we're updating
+// 2. Specify the index number for the value we're updating using subscript notation
+// 3. Assign the new value using the assignment operator
+
+students[1] = "Chris"
+
+let brianna = students[2] // Access
+students[2] = "Bri" // Update
+
+students[3] = "Mo"
+
+// Deleting elements in an array
+
+// 1. Specifying which array we're deleting from using constant name
+// 2. Use remove method, .remove(at:) to remove from a specified index position
+
+students.remove(at: 2)
+
+// Removes the last element in the array
+students.removeLast()
+
+students.remove(at: 1)
 
 
 
