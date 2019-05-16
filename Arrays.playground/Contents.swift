@@ -94,6 +94,25 @@ states.count
 let lastIndex = states.count - 1
 states[lastIndex]
 
+// Accessing Multiple Elements
+
+let factors = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+let multiplier = 2
+
+var products: [Int] = []
+
+products.append(factors[0] * multiplier)
+products.append(factors[1] * multiplier)
+products.append(factors[2] * multiplier)
+products.append(factors[3] * multiplier)
+products.append(factors[4] * multiplier)
+products.append(factors[5] * multiplier)
+products.append(factors[6] * multiplier)
+products.append(factors[7] * multiplier)
+products.append(factors[8] * multiplier)
+products.append(factors[9] * multiplier)
+
+products
 
 
 
