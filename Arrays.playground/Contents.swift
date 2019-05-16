@@ -114,6 +114,21 @@ products.append(factors[9] * multiplier)
 
 products
 
+// Range Operators
+
+// Closed Range Operator
+// Defines a range of values from a to b, includes b - a...b
+
+let closedRange = 0...9
+
+// Half Open Range Operator
+// Defines a range of values from a to b, does not include b - a..<b
+
+let halfOpenRange = 0..<10
+
+for idx in closedRange {
+    print(idx)
+}
 
 
 
