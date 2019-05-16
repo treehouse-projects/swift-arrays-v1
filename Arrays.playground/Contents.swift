@@ -126,12 +126,16 @@ let closedRange = 0...9
 
 let halfOpenRange = 0..<10
 
-for idx in closedRange {
-    print(idx)
+//for idx in closedRange {
+//    print(idx)
+//}
+
+products = []
+
+for idx in 0..<factors.count {
+    products.append(factors[idx] * multiplier)
 }
 
-
-
-
+products
 
 
