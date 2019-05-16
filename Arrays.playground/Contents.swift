@@ -136,6 +136,14 @@ for idx in 0..<factors.count {
     products.append(factors[idx] * multiplier)
 }
 
+products.removeAll()
+
+for factor in factors {
+    products.append(factor * multiplier)
+}
+
 products
+
+
 
 
